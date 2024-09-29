@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato",sans-serif;
+}
+.lefth{
+    display: inline;
+    margin: 15px;
+    list-style-type: none;
+}
+h3{
+    font-size: 30px;
+}
+ul,li,a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.737);
+    font-size: 35px;
+}
+ul,li,a:hover{
+    color: white;
+}
+.navi{
+    display: flex;
+    background-color: #37dcdc;
+    justify-content: space-between;
+    height: 1100px;
+    top: 0;
+}
+.p-whi-co{
+    color: white;
+    margin-top: -50px;
+}
+
+.main{
+    margin: 0px;
+    height: 1100px;
+}
+.main2{
+    margin: 0px;
+    width: 100%;
+}
+.leftheader{
+    margin-top: 50px;
+    margin-left: 350px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.737);   
+}
+
+.rightheader{
+    margin-top:42px;
+    margin-right: 300px;
+    font-size: 50px;  
+}
+.download{
+    width: 20px;
+    height: 20px;
+    background: #ff3f4d;
+    display: block;
+    position: absolute;
+    top: 69px;
+    right: 287px;
+    border: 2px solid #FFF;
+    background: url(../img/download.png) #ff3f4d no-repeat 50% 55%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+
+}
+.title{
+    font-size: 110px;
+    margin-top: -750px;
+    margin-left: 300px;
+    color: white;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.con{
+    margin-left: 1788px;
+    margin-top: -355px;
+    height: 200px;
+}
+.con,img{
+    height: 300px;
+}
+
+.hero-button{
+    display: inline-block;
+    padding: 1rem;
+
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: 2.90rem;
+    font-weight: 400;
+    background-color: #fff;
+    height: 80px;
+    width: 230px;
+    align-content: center;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.btncolor{
+    color:#37dcdc;
+}
+.hero-button:hover{
+    background-color: #ff3f4d;
+    color: #fff;
+    border-style: none;
+}
+.hero-button-outline{
+    display: inline-block;
+    padding: 1rem;
+    font-size: 2.90rem;
+    font-weight: 400;
+    background-color: #37dcdc;
+    color: #fff;
+    border: 1px solid #fff;
+    height: 80px;
+    width: 230px;
+    align-content: center;
+    margin-left: 20px;
+    text-align: center;
+}
+.hero-button-outline:hover{
+    background-color: #ff3f4d;
+    color: #fff;
+    border-style: none; 
+}
+.version{
+    font-size: 30px;
+    color: lightcyan;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.container{
+    position: relative;
+    margin-top: 300px;
+}
+.demo{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 100px;
+    color: gray;
+}
+.box{
+    display: flex;
+    padding: 15px;
+    justify-content:center;
+    margin-top: 70px;
+}
+#box1{
+    height: 400px;
+    width: 600px;
+    background-color: red;
+  
+    margin: 15px;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    
+}
+#box2{
+    height: 400px;
+    width: 600px;
+    background-color: red;
+ 
+    margin: 15px;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    align-content: center;
+}
+#box3{
+    height: 400px;
+    width: 600px;
+    background-color: red;
+ 
+    margin: 15px;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    align-content: center;
+}
+.content{
+    margin-top: 100px;
+    margin-left: 500px;
+    display: flex;
+    height: 400px;
+   
+}
+.subline{
+   
+    font-size: 35px;
+    text-align: justify;
+   
+}
+.img1{
+    height: 190px;
+   
+    margin-left: 20px;
+}
+.content,p{
+    font-size: 50px;
+    
+    padding-right: 20px;  
+  
+    color: black;
+}
+.firstdiv{    
+    width: 150px;
+    display: flex;
+    
+    margin-left: 145px; 
+    padding-right: 165px;   
+    padding-right: 200px;  
+}
+.firsteithtwo{    
+    width: 150px;
+    display: flex;
+    margin-left: 175px; 
+    margin-top: -10px;
+    padding-right: 165px;   
+}
+.firsttothird{
+    width: 150px;
+    display: flex;
+    margin-left: 220px; 
+    margin-top: -10px;
+    padding-right: 133px;  
+}
+.firsttofour{
+    width: 150px;
+    display: flex;
+    margin-left: 145px; 
+    margin-top: -10px;
+    padding-right: 215px; 
+}
+.firsttofive{
+    width: 150px;
+    display: flex;
+    margin-left: 185px; 
+    margin-top: -10px;
+    padding-right: 175px; 
+}
+.firsttosix{
+    width: 150px;
+    display: flex;
+    margin-left: 155px; 
+    margin-top: -10px;
+    padding-right: 200px; 
+}
+.row
+{
+    width: 1700px;
+    display: flex;
+    height: 200px;
+    margin-left: -80px;
+    margin-top: 150px;
+}
+
+.seconddiv{
+    margin-left: 190px;
+    
+}
+hr{
+    width: 1700px;
+    margin-left: 400px;
+ 
+
+}
+.lastdiv{
+    font-size: 60px;
+    margin: 25px;
+    text-align: center;
+    margin-top: 90px;
+    color: rgb(115, 230, 230);
+    font-weight: 300;
+}
+.foot{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-weight: 300;
+}
+.footer{
+    height: 150px;
+    background-color: rgb(247, 246, 246); 
+    font-size: 35px;   
+    align-content: center;
+    text-align: center;
+    color: rgb(62, 210, 210);
+    margin-top: 180px;
+}
+.footerlogo{
+    height: 60px;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+   
+    margin-top: -3px;
+   
+}
+.joinlogo{
+    display: flex;
+    justify-content: center;
+}
+
+/* demos */
+
+.navi2
+{
+    display: flex;    
+    background-color: #37dcdc;
+    justify-content: space-between;
+    top:0px;
+    height: 150px;
+}
+.heading{
+    height: 210px;
+    background-color: rgb(247, 246, 246);
+   
+    font-size: 80px;
+    align-content: center;
+}
+.head{
+    margin-left:335px ;
+    font-weight: 300;
+}
+.maindemos{
+    font-size: 45px;
+    margin-top: 200px;
+    margin-left: 335px;
+    position: relative;
+}
+.hrow{
+    width: 1900px;
+    margin-left: -0px;
+    
+}
+.colorforthis{
+    color: black;
+    font-size: 40px;
+    font-weight: 300;
+}
+.boxs{
+    display: flex;
+    justify-content: center;
+   margin-left: -300px;
+}
+
+.basic{
+    font-size: 38px;
+   padding-top: 20px;   
+   padding-left: 20px;
+   display: inline;
+   height: 200px;
+   width: 450px;  
+   background-color: rgb(227, 222, 222); 
+  margin: 10px;
+}
+.basic:hover{
+    background-color: #37dcdc;
+}
+
+ .singlebox{
+    margin-left: -1460px;
+    font-size: 38px;
+    padding-top: 20px;   
+   padding-left: 20px;
+    display: inline; 
+    height: 200px;
+   width: 450px;  
+   background-color: rgb(227, 222, 222);
+  
+ }
+ .singlebox:hover{
+    background-color: #37dcdc;
+ }
+ .userbilting{
+    font-size: 45px;
+    margin-top: 200px;
+    margin-left: 335px;
+    position: relative;
+}
+.externallib{
+    font-size: 45px;
+    margin-top: 200px;
+    margin-left: 335px;
+    position: relative;
+}
+/* docs */
+
+.row3{
+    margin: 0 auto;
+    max-width: 62.5rem;
+    width: 100%;
+}
+.side-nav {
+    display: block;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 100px;
+    padding-top: 85px;
+    margin-left: -490px;
+    width: 390px;
+    color: black;
+    font-size: 30px;
+    position: relative;
+}
+.headingside{
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: -40px;
+    position: absolute;
+    text-align: center;
+    margin-left: -40px;
+}
+.active{
+    color:rgb(191, 190, 190);   
+    width: 350px;    
+    margin-top: 20px;
+    position: absolute;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    font-size: 35px;
+}
+.active:hover{
+    background-color: rgb(238, 237, 237);
+    color: black;
+}
+.active_default{   
+    width: 350px;    
+    margin-top: 20px;
+    position: absolute;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    background-color: rgb(238, 237, 237);
+}
+.headingside2{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -40px;
+    position: absolute;   
+    margin-left: 200px;
+}  
+.headingside3{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -40px;
+    position: absolute;
+    margin-left: 30px;    
+}
+.headingside4{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -40px;
+    position: absolute;
+    margin-left: 110px;    
+}
+.largecolumn{
+    position: relative;
+  
+}
+.docs_content{
+margin-left: -10px;
+margin-top: -1650px;
+width: 1550px;
+}
+#welcome{
+    color: black;
+    font-size: 70px;
+  
+}
+.quote{
+    font-size: 40px;
+    color: rgb(208, 208, 208);
+    align-content: center;
+    margin-top: 70px;
+   
+}
+.horline{
+    border-left: 12px solid aqua;
+    height: 110px;
+    padding-left: 25px;
+}
+.h7{
+    margin-top:39px ;
+}
+.new_features{
+    margin-top: 90px;
+    font-size: 60px;
+    margin-left: -25px;
+}
+.subli,ul,li{
+    font-size: 33px;
+    color: black;
+    margin-top: 22px;    
+}
+.compatibility{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: -25px;
+}
+.comp{
+    margin-top: 40px;
+    font-size: 35px;
+    color: rgb(152, 152, 152);
+}
+.library{
+    font-size: 60px;
+    margin-top: 70px;
+    margin-left: -18px;
+}
+.sub_comp{
+    margin-left: 42px;   
+}
+.lib{
+    font-size: 35px ;
+}
+.linktag{
+    color: #37dcdc;    
+}
+.linktag:hover{
+    color: #37dcdc;
+}
+.fileincluded{
+    font-size: 60px;
+    margin-top: 70px;
+    margin-left: -18px;
+}
+.hljs {
+    display: block;
+    color: #333;
+    background: #f8f8f8;
+    padding: 2rem;
+    line-height: 1.4;
+    overflow-x: scroll;
+    font-size: 25px;
+    font-family: 'Courier prime', monospace;
+}
+.hijs-keyword{
+    color: #333;
+    font-weight:bolder
+}
+.dependecied{
+    font-size: 60px;
+}
+.nextstep{
+    font-size: 60px;
+    margin-top: 70px;
+}
+.installation{
+    color: #37dcdc;
+    font-size: 60px;
+    margin-top: 60px;
+}
+.installation:hover{
+    color: #37dcdc;
+}
+.docsmain{
+ margin-top: 4100px;   
+}
